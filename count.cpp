@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-//add class definitions below this line
-
 class Words {
 
   public:
@@ -36,13 +34,11 @@ class Words {
 
 
   int main() {
-  //add code below this line
   
   string s = "house";
   Words vowels(s, s.length());
   vowels.Printer();
 
-  //add code above this line
   
   return 0;
   
